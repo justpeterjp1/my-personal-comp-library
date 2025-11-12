@@ -1,0 +1,8 @@
+/* src/index.css */
+@import "tailwindcss";
+/* Your other custom CSS goes here if any */
+
+
+button {
+  cursor: pointer;
+}
