@@ -2,14 +2,14 @@
 services:
   app:
     build: .
-    # Map the container's port to your host machine's port
+    # Mapping the container's port to my machine's port
     ports:
       - "5173:5173"
     # CRITICAL: Mount the source code using a volume
     volumes:
       - .:/app
-      # 🚨 CRITICAL FIX: Tell Docker to ignore the local node_modules
+      # 🚨 CRITICAL: Tell Docker to ignore the local node_modules
       - /app/node_modules
     environment:
-      # Setting this can sometimes help with hot-reloading issues in WSL2
+      # sometimes help with hot-reloading issues in WSL2
       CHOKIDAR_USEPOLLING: "true"

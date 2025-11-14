@@ -6,3 +6,8 @@
 button {
   cursor: pointer;
 }
+
+.dark {
+  --primary: #1e293b;
+  --color: rgb(173, 169, 169);
+}
