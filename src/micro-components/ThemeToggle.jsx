@@ -29,7 +29,7 @@ const themeToggle = () => {
       >
         {theme === "dark" ? (
           <>
-            <span className="flex gap-2 p-1 px-2 rounded-lg bg-gray-200">light<Sun className="h-5 w-5 text-yellow-500" /></span>
+            <span className="flex gap-2 p-1 px-2 rounded-lg bg-gray-50 text-gray-500">light<Sun className="h-5 w-5 text-yellow-500" /></span>
             
           </>
         ) : (

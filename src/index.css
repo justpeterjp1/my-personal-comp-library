@@ -7,10 +7,16 @@ button {
   cursor: pointer;
 }
 
-.dark {
-  --primary: #1e293b;
-  --secondary: #414953;
-  --color: rgb(173, 169, 169);
+html.dark {
+  --primary: #1b293e;
+  --secondary: #4c5661;
+  --color: rgb(236, 233, 233);
+}
+
+html.light {
+  --primary: #f8fafc; 
+  --secondary: #f1f5f9;
+  --color: #000;
 }
 
 @keyframes slideDown {
