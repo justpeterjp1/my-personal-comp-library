@@ -8,7 +8,7 @@ export default function App() {
   const [currentView, setCurrentView] = useState("initial");
 
   return (
-    <div className="flex flex-col h-screen items-center justify-center bg-[var(--primary)] text-[var(--color)]">
+    <div className="h-screen bg-[var(--primary)] text-[var(--color)]">
       <Header />
       {currentView === "initial" && (
         <Home goTo={setCurrentView} />
